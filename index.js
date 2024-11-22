@@ -73,7 +73,7 @@ function addTask(text, status = "to-do") {
     taskDiv.addEventListener("dragstart", handleDragStart);
     taskDiv.addEventListener("dragover", handleDragOver);
     taskDiv.addEventListener("drop", handleDrop);
-    taskDiv.addEventListener("dragend", handleDragEnd);  // Added for cleanup
+    taskDiv.addEventListener("dragend", handleDragEnd); 
   }
 }
 
